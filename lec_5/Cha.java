@@ -9,8 +9,8 @@ public class Cha {
         if(str.length() ==0){
             return false;
         }
-        for(int i =0; i<str.length();i++){
-            if(target== str.charAt(i)){
+        for(int index =0; index<str.length();index++){
+            if(target== str.charAt(index)){
                 return true;
             }
         }
