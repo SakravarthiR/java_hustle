@@ -25,11 +25,26 @@ public class Searchin2d {
         }
         return new int[] {-1, -1};
     }
-    static int max(int[][] arr){
-        int max = Integer.MIN_VALUE;
+        static int max(int[][] arr){
+            int max = Integer.MIN_VALUE;
+            for(int[] ints : arr){
+                for(int element:ints){
+                    if (element > max) {
+                        max = element;
+                        
+                    }
+
+                }
+            
+            }
+            return max;
+        }
+
+              static int min(int[][] arr){
+        int max = Integer.MAX_VALUE;
         for(int[] ints : arr){
             for(int element:ints){
-                if (element > max) {
+                if (element < max) {
                     max = element;
                     
                 }
