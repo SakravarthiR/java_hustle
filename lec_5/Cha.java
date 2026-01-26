@@ -1,7 +1,7 @@
 public class Cha {
     public static void main(String[] args){
-        String name = "mEow";
-        char target = 'm';
+        String name = "Queenland";
+        char target = 'e';
         System.out.println(search(name,target));
 
     }
