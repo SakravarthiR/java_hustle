@@ -11,7 +11,7 @@ public class Wealth {
         for(int account =0 ; account<accounts.length;account++){
             int sum =0;
             for(int person=0; person<accounts[account].length;person++){
-                sum+=accounts[account][person];
+                sum +=accounts[account][person];
 
             }
             if(sum>ans){
