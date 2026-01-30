@@ -12,21 +12,21 @@ public class Decar{
 
         boolean isAsc = arr[start] < arr[end];
          while(start<=end){
-            int mid = start + (end - start) /2;
-            if(arr[mid]==tar){
-                return mid;
+            int middle = start + (end - start) /2;
+            if(arr[middle]==tar){
+                return  middle;
             }
         if(isAsc){
-            if(tar < arr[mid]){
-                end =  mid - 1;
+            if(tar < arr[middle]){
+                end =  middle - 1;
             }else {
-                start =  mid +1;
+                start =  middle +1;
             }
          }else{
-            if(tar >arr[mid]){
-                end = mid -1;
+            if(tar >arr[middle]){
+                end = middle -1;
             }else{
-                start = mid +1;
+                start = middle +1;
             }
          }
     }
