@@ -15,7 +15,7 @@ public class New {
             ans = ans * 10 + rem;
             
         }
-        System.out.println("Your number has been reversed." + ans);
+        System.out.println ("Your number has been reversed." + ans);
     }
 }
 
